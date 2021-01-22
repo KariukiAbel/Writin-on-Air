@@ -70,7 +70,7 @@ while True:
     cv2.imshow("output", new_inp_img)
     cv2.imshow("result", mask)
     
-    gray_inp_img = new_gray_copy()
+    # gray_inp_img = new_gray_copy()
     old_pts = new_pts.reshape(-1,1,2)
     
     if cv2.waitKey(1) & 0xff == 27:
